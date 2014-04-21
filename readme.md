@@ -1,4 +1,6 @@
-trackjs is a small project I created to learn node.js with socket.io. It allows you to precisely track user activity on web interfaces.  
+TRACKJS  
+-------  
+__trackjs__ is a small project I created to learn node.js with socket.io. It allows you to precisely track user activity on web interfaces.  
 Just by embedding the client script to a web page or to the user's browser and launching the server, you can watch live a reproduction of the client browsing session. Live or not. The following actions are catched :  
 - page visited and their content  
 - mouse and scroll actions  
