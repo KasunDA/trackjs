@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link href="css/panel.css" type="text/css" rel="stylesheet">
+		<script src="http://localhost:7455/socket.io/socket.io.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/network-panel.js"></script>
+	</head>
+	<body>
+		<ul id="menu">
+			<li><h1>Panel</h1></li>
+			<li class="options"><h1 id='backButton'>back</h1></li>
+		</ul>
+		<form id="loginbox">
+			<h3>Please enter your admin password</h3>
+			<input type="password" id="adminPasswordField" placeholder="Admin password" /><br />
+			<input type="submit" value="Submit">
+			<h4 class="error">Wrong password, please try again</h4>
+		</form>
+		<div id="sessions">
+			<h3>Live sessions</h3>
+			<ul id="sessionList">
+			</ul>
+			<h3>Past sessions</h3>
+			<ul id="pastSessionList">
+			</ul>
+		</div>
+		<div id="replayControls">
+			<div id="progressBar">
+				<div id="progressBarProgress"></div>
+			</div>
+			<div id="pauseButton">Pause</div>
+		</div>
+		<div id="viewer">
+			<div id="userScreen">
+				<div id="userBrowser">
+					<div id="cursor"><div id="clicNotifier"></div></div>
+					<iframe id="iframe" style="background-color: white"></iframe>
+				</div>
+			</div>
+			<ul id="eventList">
+			</ul>
+		</div>
+	</body>
+</html>
