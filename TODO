@@ -1,0 +1,12 @@
+- catching more events such as :
+-- in-page content scroll
+-- list dropdown
+-- others
+- easier installation, configuring done by a script, not by manual changes in files
+-- force admin panel password to be set (no default password)
+- catching dynamic page modification and notify the server
+- more precise mobile phone/tablet resolution/font size detection
+- better database structure
+- pagination and searching thought past sessions
+- add possibility to have reports on choosen users (list of web activity, navigation)
+- add possibility to execute inline js client side code at admin request

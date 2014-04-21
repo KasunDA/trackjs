@@ -1,3 +1,13 @@
+trackjs is a small project I created at first to learn node.js with socket.io. It allows you to precisely track user activity on web interfaces.  
+Just by embedding the client script to a page or to the user's browser, you can watch live the client browsing. The following actions are catched :
+- page visited and their content
+- mouse and scroll actions
+- input on forms
+- page change
+- navigator dimensions and position on screen
+
+Due to web browser having different behaviours, the preview might not be 100% accurate. Some events are not yet catched (see TODO).  
+
 REQUIREMENTS  
 ------------  
 - nodejs  
